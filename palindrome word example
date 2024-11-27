@@ -1,0 +1,23 @@
+
+
+// palindrome word example
+Console.WriteLine("please enter the word"); 
+string word = Console.ReadLine();
+int size = word.Length;
+bool ispalindrome = true; 
+for (int i = 0; i<size/2; i++)
+ {
+     if (word[i] != word[size-i-1])
+    {
+        ispalindrome = false;
+        break; 
+    }
+    else
+    {
+        ispalindrome = true;
+        break; 
+    }
+
+}
+Console.WriteLine($"the word is {ispalindrome}");
+
