@@ -1,0 +1,30 @@
+  int number = 10;
+  duplicated(number);
+  Console.WriteLine(number);    //=> 10 not 20 beacuse it send by value (the variable stored in stack)
+
+
+
+  int[] num = { 1, 2, 3 };
+  dublicatedarray(num);
+  Console.WriteLine(num[0]); // > 2,4,6 => stored in heab send by refrence ; 
+  Console.WriteLine(num[1]);
+  Console.WriteLine(num[2]);
+
+
+
+  static void dublicatedarray(int[] nums)
+  {
+      for (int i = 0; i < nums.Length; i++)
+      {
+          nums[i] *= 2;
+      }
+
+
+  }
+
+  static void duplicated (int numbers)
+  {
+
+      numbers *= 2;
+
+  }
