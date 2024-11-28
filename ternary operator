@@ -1,0 +1,9 @@
+ // ternary operator
+ for (int i =1; i<=9; i ++ )
+ {
+
+     string stetment = i % 2 == 1 ? $" {i}is odd" : $" {i}is even"; 
+     Console.WriteLine( stetment );
+
+
+ }    
