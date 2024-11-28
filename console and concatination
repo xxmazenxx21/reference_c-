@@ -1,0 +1,29 @@
+        char a = 'a';
+   Console.WriteLine((int)a);   // casting
+   
+ //-----------------------------------------------
+
+//bool
+      bool isdegt = char.IsDigit('a'); 
+   Console.WriteLine(isdegt);
+   isdegt = char.IsDigit('1'); 
+   Console.WriteLine(isdegt);  
+
+//----------------------------------------------------
+ 
+ //concatination 
+
+
+ string hello = "hello";
+ string world = "world"; 
+ Console.WriteLine(hello+world); 
+ 
+
+
+//-------------------------------------------------------
+ 
+ string name = "" ; 
+ Console.WriteLine("enter your name");
+ name = Console.ReadLine();
+ Console.WriteLine("your name is" + name);
+ 
