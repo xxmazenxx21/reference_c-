@@ -1,0 +1,28 @@
+// array copy
+int[] nums = { 1, 5, 3, 7, 4, 2 };
+int[] nums2 = new int[7]; 
+Array.Copy(nums,nums2, nums.Length);
+Console.WriteLine(nums2[2]);
+Console.WriteLine(nums[3]);
+Array.Sort(nums);
+Console.WriteLine(nums[3]); 
+
+
+//--------------------------------------------------------------------------------------------------
+//array sort
+Console.WriteLine("enter number of arrays"); 
+int[] nums = new int[5];
+for (int i = 0; i < nums.Length; i++)
+{
+    nums[i] = int.Parse(Console.ReadLine());
+
+}
+
+// nums[i] = {2,4,7,5,1}
+Array.Sort(nums);   
+for (int i = 0;i < nums.Length;i++) {
+
+    Console.WriteLine(nums[i]); 
+    Console.WriteLine("--------------------------------------");
+}
+
