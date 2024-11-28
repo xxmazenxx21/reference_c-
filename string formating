@@ -1,0 +1,6 @@
+
+            // string formating 
+
+            string str = "hello {0} my name is {1}"; 
+            str = string.Format(str, "ahmed" , "mohamed");
+            Console.WriteLine(str);
