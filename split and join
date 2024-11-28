@@ -1,0 +1,18 @@
+// split
+  Console.WriteLine("enter list of number sperated by commma");
+  string input = Console.ReadLine();
+  string[] numbers = input.Split(",");
+  int sum = 0;
+  foreach (string number in numbers) {
+      sum += int.Parse(number);
+    
+  }
+    Console.WriteLine("averge = "+sum / numbers.Length);
+  
+
+
+
+  // join 
+  string[] srt = { "hussin", "mohamed", "ahmed", "ali" }; 
+  string statment = string.Join(" and ", srt);    
+  Console.WriteLine(statment);
