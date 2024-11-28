@@ -1,0 +1,27 @@
+ // switch 
+ while (true)
+ {
+     Console.WriteLine("enter  a word");
+     string input = Console.ReadLine();
+     Console.WriteLine("select an option");
+     Console.WriteLine(" 1. convert to uppercase");
+     Console.WriteLine("2. convert to lower case");
+     Console.WriteLine("3. get length");
+     string option = Console.ReadLine();
+
+     switch (option)
+     {
+         case "1":
+             Console.WriteLine(input.ToUpper());
+             break;
+         case "2":
+             Console.WriteLine(input.ToLower());
+             break;
+         case "3":
+             Console.WriteLine(input.Length);
+             break;
+         default:
+             Console.WriteLine("invalid");
+             break;
+     }
+ }
