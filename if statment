@@ -1,0 +1,16 @@
+ Console.WriteLine("enter a number");
+ int number = int.Parse(Console.ReadLine());
+ int reminder = number % 2;
+ if(reminder%2==1)
+ {
+     Console.WriteLine($"{number} is odd");
+
+ }
+ else if (number==0)
+ {
+     Console.WriteLine($"{number} is zero");
+ }
+ else
+ {
+     Console.WriteLine($"{number} is even");
+ }
